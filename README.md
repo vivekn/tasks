@@ -11,7 +11,7 @@ Installation
 -----------
 
 1. Install redis and start the server, **tasks** uses redis for queueing jobs. If you already have a redis server setup, call `tasks.set_redis` and pass a redis connection object with a different database/namespace from what you normally use in your application. 
-2. 
+
 2. Install the redis-py and eventlet libraries.
 	
     `pip install redis eventlet`
