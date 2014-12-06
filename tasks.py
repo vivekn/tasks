@@ -30,6 +30,10 @@ def set_func(_func):
     global func
     func = _func
 
+def set_redis(rdb):
+    global db
+    db = rdb
+
 def add_jobs(file_name):
     keys = [line.strip() for line in open(file_name)]
     if len(keys):
