@@ -57,7 +57,7 @@ Once you are done, you can clear the logs and the completed tasks by calling res
 
 `$ python yourfile.py reset`
 
-See the code or the text.py file for more information. Feel free to fork and modify this.
+See the code or the test.py file for more information. Feel free to fork and modify this.
 
 ----
 
