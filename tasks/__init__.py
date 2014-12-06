@@ -87,7 +87,7 @@ def loop():
 
 def help():
     print "Usage: python %s {add <file_name>|run|status|reset}" % sys.argv[0]
-    print "\n    add -> add a list of jobs from a file"
+    print "\n      add -> add a list of jobs from a file"
     print "      run -> start processing the jobs (with resume support)"
     print "      status -> show the current status of jobs in progress"
     print "      reset -> reset all jobs and logs"
