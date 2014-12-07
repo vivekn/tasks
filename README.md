@@ -31,7 +31,7 @@ Import `tasks` and call eventlet's monkey patch function in the first line of yo
     from urllib2 import urlopen
     
     def fetch(url):
-    	f = open('/tmp/download')
+    	f = open('/tmp/download', 'w')
     	body = urlopen(url).read()
     	f.write(body)
     	f.close()
