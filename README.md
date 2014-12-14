@@ -61,7 +61,7 @@ See the code or the test.py file for more information. Feel free to fork and mod
 
 ----
 
-**Author** : Vivek Narayanan <<vivek_n@me.com>>
+**Author** : Vivek Narayanan <<vivek@vivekn.com>>
 
 **License** : BSD
 
